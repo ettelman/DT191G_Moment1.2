@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Moment1.2
+build_property.RootNamespace = Moment1.2
+build_property.ProjectDir = D:\xampp\htdocs\Cdotnet\Moment1.2\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\xampp\htdocs\Cdotnet\Moment1.2
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/Pages/Calculate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsY3VsYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/Shared/About.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFib3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-81pbqu0zex
+
+[D:/xampp/htdocs/Cdotnet/Moment1.2/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-al0c3aiyl2

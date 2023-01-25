@@ -1,0 +1,46 @@
+@page "/calculate"
+
+<PageTitle>Omvandlingar</PageTitle>
+
+<h1>Omvandlingar</h1>
+
+<div class="feet">
+<p>Konvertera meter till fot.</p>
+<label for="meter">Meter:</label>
+<input type="number" class="input" @bind="meter" />
+<br />
+<button class="btn btn-primary" @onclick="calcFeet">Omvandla</button>
+
+<b>Antal fot: @feet</b>
+</div>
+
+<div class="speed">
+<p>Konvertera km/h till miles/h.</p>
+<label for="km">Km/h:</label>
+<input type="number" class="input" @bind="km" />
+<br />
+<button class="btn btn-primary" @onclick="calcKm">Omvandla</button>
+
+<b>Antal miles/h: @miles</b>
+</div>
+
+
+@code {
+private double meter;
+private double feet;
+
+private double miles;
+private double km;
+
+private void calcFeet()
+{
+    feet = (meter * 3.280839895);
+    feet = System.Math.Ceiling (feet * 100) / 100;
+}
+private void calcKm() {
+    miles = Math.Round(km * 0.6213711922);
+}
+
+}
+
+

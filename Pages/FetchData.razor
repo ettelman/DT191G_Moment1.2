@@ -1,0 +1,56 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<PageTitle>Kurser</PageTitle>
+
+<h1>Mina kurser</h1>
+
+<p>Kurser från courses.json. Lånad från annan kurs för demonstration</p>
+
+@if (courses == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>KursID</th>
+                <th>Kursnamn</th>
+                <th>Kursperiod</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in courses)
+            {
+                <tr>
+                    <td>@course.courseId</td>
+                    <td>@course.courseName</td>
+                    <td>@course.coursePeriod</td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Courses[]? courses;
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await Http.GetFromJsonAsync<Courses[]>("sample-data/courses.json");
+    }
+
+    public class Courses
+    {
+
+        public string? courseId { get; set; }
+
+        public string? courseName { get; set; }
+
+        public int coursePeriod { get; set; }
+    }
+}
